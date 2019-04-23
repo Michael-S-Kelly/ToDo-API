@@ -27,6 +27,8 @@ Double click on the ```ToDo``` directory.
 
 Then select and open ```ToDo.sln```
 
+Deployed Website ``` https://todolab19.azurewebsites.net ```
+
 ------------------------------
 
 ## Visuals

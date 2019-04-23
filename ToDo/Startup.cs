@@ -32,7 +32,7 @@ namespace ToDo
         {
             services.AddMvc();
 
-            services.AddDbContext<ToDoDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddDbContext<ToDoDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:ProductionConnection"]));
             
             services.AddSwaggerGen(c =>
             {
